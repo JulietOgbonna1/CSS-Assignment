@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ararat</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+  body{
+    background-image: url(/Images/sky3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .overlay{
+     background-color: rgba(57, 150, 238, 0.281);
+         background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+  }
+  li{
+    list-style: none;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  nav{
+    display: flex;
+    gap: 1.3rem;
+    background-color: white;
+    padding: 1.5rem;
+    align-items: center;
+  }
+  .bx-chevron-down{
+    position: absolute;
+    top: 3.2rem;
+  }
+  .ararat{
+    margin-left: 4rem;
+    margin-right: 7rem;
+  }
+  #ara{
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  #archi{
+    color: rgb(63, 63, 63);
+    letter-spacing: 0.1rem;
+  }
+  #button1{
+    background-color: white;
+    color: black;
+    height: 4rem;
+    width: 10rem;
+    font-family: aria;
+    margin-left: 10rem;
+  }
+  .main{
+    color: white;
+    line-height: 4rem;
+    text-align: center;
+    justify-content: center;
+    margin-top: 11rem;
+  }
+  h1{
+    font-family: montserrat;
+    font-size: 3rem;
+    letter-spacing: 0.7rem;
+  }
+  #lorem{
+    font-size: large;
+  }
+  #button2{
+    font-family: 'Times New Roman', Times, serif;
+    background: none;
+    border: 1px solid white;
+    font-size: large;
+    color: white;
+    padding: 1rem;
+  }
+  
+
+    </style>
+</head>
+<body>
+    <div class="overlay">
+    <nav>
+        <div class="ararat">
+            <p id="ara">ARARAT</p>
+            <P id="archi">ARCHITECTURE</P>
+        </div>
+        <li><a href="">HOME</a></li>
+        <li><a href="">ABOUT</a></li>
+        <li><a href="">PROJECTS</a></li>
+        <li><a href="">SERVICES</a></li>
+        <li><a href="">BLOG <i class='bx bx-chevron-down'></i></a></li>
+        <li><a href="">PAGES <i class='bx bx-chevron-down'></i></a></li>
+        <li><a href="">CONTACT</a></li>
+        <div>
+            <button id="button1">GET IN TOUCH</button>
+        </div>
+    </nav>
+    <div class="main">
+        <h1>WE DESIGN YOUR SPACE</h1>
+    <P id="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do ciusmod tempor</P>
+    <button id="button2">SEE OUR PROJECTS</button>
+    </div>
+    </div>
+</body>
+</html>

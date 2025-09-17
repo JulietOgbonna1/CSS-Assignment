@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Template</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        scroll-behavior: smooth;
+    }
+    body{
+        font-family: aria;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        cursor: pointer;
+    }
+    li{
+        list-style: none;
+    }
+    nav{
+        display: flex;
+        gap: 5rem;
+        font-weight: 900;
+        padding: 1rem;
+        font-size: 1.2rem;
+    }
+    .my{
+        margin-left: 20rem;
+        margin-right: 20rem;
+    }
+    h1{
+        margin-bottom: 1rem;
+    }
+    .company{
+        background-image: url(/Images/office.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 35rem;
+        color: white;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 2.5rem;
+        position: relative;
+
+    }
+    .overlay{
+        background-color: rgba(0, 0, 0, 0.486);
+         background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+    }
+    .content{
+         padding-left: 15rem;
+        padding-top: 10rem;
+    }
+    button{
+        background-color: rgb(50, 129, 231);
+        border: none;
+        color: white;
+        font-family: aria;
+        font-size: 1rem;
+        padding: 0.8rem;
+        margin-top: 1rem;
+    }
+    .bxs-heart{
+        color: rgb(50, 129, 231);
+        font-size: 2rem;
+    }
+    .bxs-briefcase-alt{
+         color: rgb(50, 129, 231);
+         font-size: 2rem;
+    }
+    .bxs-camera{
+         color: rgb(50, 129, 231);
+         font-size: 2rem;
+    }
+    .why{
+        margin-top: 2rem;
+        align-items: center;
+        text-align: center;
+        font-weight: 900;
+        margin-bottom: 1rem;
+    }
+    .flex1{
+        display: flex;
+        gap: 2rem;
+       margin-left: 16rem;
+       margin-bottom: 7rem;
+    }
+    .privacy{
+        line-height: 2rem;
+        align-items: center;
+        text-align: center;
+    }
+    .experience{
+        line-height: 2rem;
+        align-items: center;
+        text-align: center;
+    }
+    .various{
+        line-height: 2rem;
+        align-items: center;
+        text-align: center;
+    }
+.flex2{
+    display: flex;
+    gap: 3rem;
+    margin-left: 10rem;
+}
+.pics1{
+    width: 20rem;
+    height: 15rem;
+}
+.hr{
+    width: 20rem;
+    height: auto;
+    text-align: justify;
+    line-height: 1.8rem;
+}
+.hiring{
+    width: 20rem;
+    height: auto;
+    text-align: justify;
+    line-height: 1.8rem;
+}
+.employment{
+    width: 20rem;
+    height: auto;
+    text-align: justify;
+    line-height: 1.8rem;
+}
+.bold{
+    font-weight: bolder;
+    padding-top: 0.5rem;
+}
+footer{
+    background-image: url(/Images/templatebottombgmain.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    margin-top: 5rem;
+    height: 30rem;
+}
+.flex3{
+    display: flex;
+    margin-left: 10rem;
+}
+.footerimg{
+    width: 30rem;
+    margin-top: 7.5rem;
+}
+.about{
+    width: 25rem;
+    text-align: justify;
+    line-height: 1.7rem;
+    margin-top: 11rem;
+    margin-left: 3rem;
+}
+span{
+    font-weight: 900;
+}
+</style>
+<body>
+    <nav>
+        <li class="my"><a href="">My Site</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#contacts">Contacts</a></li>
+    </nav>
+    
+    <div class="company">
+        <div class="overlay">
+        <div class="content">
+            <h1>Company Template</h1>
+        <p>We help organizations to hire, <br>satisfy, motivate, and retain <br> their employees.</p>
+        <button>Learn More</button>
+        </div>
+    </div></div>
+    <div>
+        <h2 class="why" id="features">Why Choose Us</h2>
+        <div class="flex1">
+<div class="privacy">
+    <i class='bx bxs-heart'></i>
+    <h3>Privacy Matters</h3>
+    <p>Privacy is important. We don't store info <br>about your users and their employees <br> without consent.  
+</p>
+<button>Read More</button>
+
+</div>
+
+    <div class="experience">
+        <i class='bx bxs-briefcase-alt'></i>
+        <h3>Experience</h3>
+        <p>We've worked with more than one <br>hundred companies to help manage their <br> human resources.</p>
+        <button>Read More</button>
+    </div>
+
+    <div class="various">
+            <i class='bx bxs-camera'></i>
+            <h3>Various Term Lengths</h3>
+            <p>You can set the needed terms of cooperation. Limit <br>our partnership term lengths, select needed services. <br>We are here to serve you.  </p>
+            <button>Read More</button>
+        </div>
+    </div></div>
+    <div>
+        <h2 class="why">Our Work</h2>
+        <div class="flex2">
+        <div class="hr">
+            <img src="/Images/flowerdecor.jpg" alt="flowerdecor" class="pics1">
+            <h3>HR Consulting</h3>
+            <p class="bold">Employees are positioned to find better roles.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus ut maxime aliquam, rem nemo harum?  </p>
+            <button>Read More</button>
+        </div>
+    <div class="hiring">
+        <img src="/Images/mantable.jpg" alt="man with a laptop" class="pics1">
+        <h3>Hiring</h3>
+        <p class="bold">Employees directly affect performance</p>
+        <p>Discover directly what performance changes can come from employee selection. Omnis consequatur facilis ducimus nulla.</p>
+        <button>Read More</button>
+    </div>
+    <div class="employment">
+        <img src="/Images/suitmeeting.jpg" alt="people at a meeting" class="pics1">
+        <h3>Employment Testing</h3>
+        <p class="bold">Take feedback that is objective</p>
+        <p>Make feedback the first step. Use data and psychology to guide hiring decisions. Omnis consequatur facilis ducimus nulla.</p>
+        <button>Read More</button>
+    </div></div>
+    </div>
+    <footer>
+        <div class="flex3">
+            <div><img src="/Images/peopleconference.jpg" alt="Conference meeting" class="footerimg"></div>
+            <div class="about">
+                <h3 id="about">About Us</h3>
+                <p>The Company was founded by <span>John Jude</span> and <span>Eno Frank</span> in <span>2004</span>. The team has over 15 years of combined experience in HR consulting and business management. We're passionate about helping businesses thrive by improving their workforce.  </p>
+                <button>Learn More</button>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
